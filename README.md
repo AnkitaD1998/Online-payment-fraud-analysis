@@ -24,5 +24,23 @@ Engaged in a project that contained historical information on over 63 lakh fraud
 - newbalanceDest: the new balance of recipient after the transaction
 - isFraud: fraud transaction
 
+## Data Pipeline
+- Executed data cleaning procedures to prepare the dataset for analysis like outlier handling techniques to enhance data quality and model performance, reducing data anomalies by 95%
+- Performed exploratory data analysis (EDA) to gain insights into the characteristics of fraudulent transactions, identifying key fraud patterns
+- Recommended actions for future developments, strategic opportunities, and policy enhancements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
