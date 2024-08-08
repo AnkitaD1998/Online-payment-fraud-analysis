@@ -29,7 +29,21 @@ Engaged in a project that contained historical information on over 63 lakh fraud
 - Performed exploratory data analysis (EDA) to gain insights into the characteristics of fraudulent transactions, identifying key fraud patterns
 - Recommended actions for future developments, strategic opportunities, and policy enhancements
 
+# Conclusion from EDA
+- We have a large number of records that are incorrectly flagged as 0. Incorrect flagging might have a big impact in the future if we don't calculate it properly as it might lead to an increase in online payment fraud percentage as people rely more on online payment nowadays
+- The amount range usually fraudsters target is around 1.3-5 lakhs which is certainly a large amount
+- Fraudsters focus on cashout and payment mode type transfer
+- In total, there is 8213 fraud transactions happened which constitutes around 0.13% of total transactions that happened
+- 0.183 % fraud happened in the total cashout mode type and 0.769 % fraud happened in the total transfer mode type
+- There is a high correlation between newbalanceOrig, oldbalanceOrg and also between newbalanceDest and oldbalanceDest
 
+# Recommendations
+- Implement stricter monitoring and additional verification steps for transactions in the range of 1.3-5 lakhs, as this range is frequently targeted by fraudsters
+- Use risk-based authentication methods where higher-risk transactions require additional verification steps, such as multi-factor authentication or biometric verification
+- Cashout and Transfer Modes have higher fraud percentages, implement stricter checks and controls specifically for these types of transactions
+- Set lower transaction limits for cashout and transfer modes unless the user completes additional verification steps
+- Conduct regular awareness campaigns to educate customers about common fraud tactics and how to recognize and report suspicious activities
+- Implement real-time transaction alerts via SMS or email to inform customers immediately of any transactions, allowing them to quickly report unauthorized activities
 
 
 
